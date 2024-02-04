@@ -46,3 +46,28 @@ body {
     border-style: solid;
     padding: 2vw;
 }
+
+#main {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Home {
+    margin-top: 10px;
+    text-decoration: none;
+    color: purple;
+}
+
+#us {
+    margin-top: 10px;
+    text-decoration: none;
+    color: purple;
+}
+
+#work {
+    margin-top: 10px;
+    text-decoration: none;
+    color: purple;
+}
+
