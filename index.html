@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <a href="index.html" name="Home" id="Home">Home   |   </a>
+            <a href="aboutus.html" name="About Us" id="us">About Us   |   </a>
+            <a href="howitworks.html" name="howitworks" id="work">How Does It Work?</a>
+            <div id="main">
+                <h1 id="indexh1">Are You Living In A Dream or A Nightmare?</h1>
+            <p>With this website, we will determine if you have proper sleeping habits!</p>
+            <p>For that, we're gonna need some of your information... (dont worry, we're not gonna share it with anyone)</p>
+            <div>
+                <fieldset>    
+                    <legend>Select A Sex</legend>
+                        <div>
+                            <input type="radio" id="male" name="sex" value="Male" checked>
+                            <label for="Male">Male</label> 
+                            <br>
+                            <input type="radio" id="female" name="sex" value="Female" checked>
+                            <label for="Female">Female</label> 
+                        </div>
+                </fieldset>
+                <fieldset>    
+                    <legend>Enter An Age</legend>
+                        <div>
+                            <input type="number" id="age" name="age"/>
+                        </div>
+                </fieldset>
+                <fieldset>    
+                    <legend>How Well Do You Sleep On a Scale of 1-10</legend>
+                        <div>
+                            <input type="number" id="sleep" name="sleep"/>         
+                        </div>
+                </fieldset>
+                <fieldset>    
+                    <legend>How Active Are You? (minutes/day)</legend>
+                        <div>
+                            <input type="number" id="active" name="active"/>         
+                        </div>
+                </fieldset>
+                <fieldset>    
+                    <legend>What Is Your Stress Level On a Scale of 1-10</legend>
+                        <div>
+                            <input type="number" id="stress" name="stress"/>         
+                        </div>
+                </fieldset>
+                <fieldset>    
+                    <legend>What BMI Category Are You?</legend>
+                        <div>
+                            <input type="radio" id="underweight" name="BMI" value="underweight" checked>
+                            <label for="underweight">Underweight</label> 
+                            <br>
+                            <input type="radio" id="normal" name="BMI" value="normal" checked>
+                            <label for="nomral">Normal</label>
+                            <br>
+                            <input type="radio" id="overweight" name="BMI" value="overweight" checked>
+                            <label for="overweight">Overweight</label>        
+                        </div>
+                </fieldset>
+                <fieldset>    
+                    <legend>How Many Steps Do You Have In a Day? (estimate)</legend>
+                        <div>
+                            <input type="number" id="steps" name="steps"/>         
+                        </div>
+                </fieldset>
+                <fieldset>    
+                    <legend>Do You Have A Sleeping Disorder?</legend>
+                        <div>
+                            <input type="radio" id="none" name="disorder" value="none" checked>
+                            <label for="none">None</label> 
+                            <br>
+                            <input type="radio" id="Insomnia" name="disorder" value="Insomnia" checked>
+                            <label for="Insomnia">Insomnia</label>
+                            <br>
+                            <input type="radio" id="SleepApnea" name="disorder" value="SleepApnea" checked>
+                            <label for="SleepApnea">Sleep Apnea</label>         
+                        </div>
+                </fieldset>
+            </div>
+            
+
+            <button id="results">Click To See Your Results!</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
